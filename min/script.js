@@ -1,11 +1,13 @@
-let x = 1;
-let y = 2;
-alert(x*y/100);
+let x = 0.1;
+let y = 0.2;
+let sum = x+y;
+alert( sum.toFixed(1));
 
 
-let z = 2/100;
-let a = 2;
-alert(z+a);
+let a = '0.3';
+let b = 2;
+
+alert( Number(a) + 2 );
 
 
 var  fileSize = 850;
