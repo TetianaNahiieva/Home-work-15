@@ -11,3 +11,4 @@ alert(z+a);
 var  fileSize = 850;
 var numberCapacity = prompt("What is the storage capacity?","");      
 alert("Fit " + (numberCapacity*1000/fileSize) + " files");
+

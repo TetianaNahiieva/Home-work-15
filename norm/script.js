@@ -1,11 +1,9 @@
-
 let money = prompt('How much money is in the wallet?)');
 money = parseInt(money);
 let chocolate = prompt('how much is chocolate?');
 chocolate = parseInt(chocolate);
 alert ("You can buy  "+Math.round(money/chocolate)+ "  chocolates");
 alert("Change  "+money % chocolate);
-
 
 
 let number = prompt('Name the number!)');
